@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Content } from './models/content';
-import { List } from './models/list';
+
 
 @Component({
   selector: 'app-root',
@@ -9,11 +9,11 @@ import { List } from './models/list';
 })
 export class AppComponent {
   title = 'H_Hingu_bikes';
-  myList: List;
+
 
   constructor() {
     let contentitem: Content;
-    this.myList = new List();
+
 
     contentitem = {
       id: 0,
@@ -24,7 +24,6 @@ export class AppComponent {
       author: "harshil Hingu",
       hashtags: ["BMW", "Trigger", "Hayabuza"]
     };
-    this.myList.addContent(contentitem);
     contentitem = {
       id: 1,
       title: 'BMW',
@@ -34,7 +33,6 @@ export class AppComponent {
       author: "Harsil Hingu",
       hashtags: ["BMW", "Trigger", "Hayabuza"]
     };
-    this.myList.addContent(contentitem);
     contentitem = {
       id: 2,
       title: 'Splender',
@@ -44,7 +42,6 @@ export class AppComponent {
       author: "Harsil Hingu",
       hashtags: ["BMW", "Trigger", "Hayabuza"]
     };
-    this.myList.addContent(contentitem);
     contentitem = {
       id: 3,
       title: 'Hero Honda',
@@ -54,8 +51,6 @@ export class AppComponent {
       author: "Harsil Hingu",
       hashtags: ["BMW", "Trigger", "Hayabuza"]
     };
-    this.myList.addContent(contentitem);
 
   }
 }
-harshil
