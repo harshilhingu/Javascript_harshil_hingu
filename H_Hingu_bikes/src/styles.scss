@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+.content-wrapper {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+  
+    img {
+      max-width: 550px;
+    }
+  h1{
+    color: blueviolet;
+    font-size: 2.1em;
+  }
+  
+    h6 {
+      color: rgb(212, 61, 19);
+      font-size: 1.8em;
+    }
+  
+    div {
+      font-weight: bold;
+    }
+  }
