@@ -1,1 +1,5 @@
-<p>content-list works!</p>
+<h1 style="text-align:center;">{{title}}</h1>
+
+
+<app-content-card *ngFor="let bikeItem; even as isEven" [Bike]="bikeItem"
+  [class.is-even]="isEven" [class.is-odd]="!isEven"></app-content-card>
