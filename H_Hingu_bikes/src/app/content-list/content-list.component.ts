@@ -48,10 +48,10 @@ export class ContentListComponent implements OnInit {
       hashtags: ["BMW", "Trigger", "Hayabuza"]
     },
     {
-      id: 4,
+      id: 5,
       title: 'Hero Honda',
       body: "Aluminum not that much effective but it's good for some years ",
-      imageLink: "https://static.autox.com/uploads/bikes/2017/05/1486030508-hero-hf-deluxe.jpg",
+      imageLink: "https://img.etimg.com/thumb/msid-82267745,width-1070,height-580,imgsize-584129,overlay-etpanache/photo.jpg",
       type: "Not much hard",
       author: "Harsil Hingu",
       hashtags: ["BMW", "Trigger", "Hayabuza"]
