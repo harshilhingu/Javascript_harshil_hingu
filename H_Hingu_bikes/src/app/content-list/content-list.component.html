@@ -1,7 +1,24 @@
-<h1 style="text-align:center;">{{title}}</h1>
+<h1>{{title}}</h1>
 
+<div>
+    <input #titleValue>
+    <button (click)="updatePage(titleValue.value)">Submit</button>
+    <p class="greentext" *ngIf="itsAvailable">{{ itsAvailable }}</p>
+    <p class="redtext" *ngIf="itsNotAvailable">{{ itsNotAvailable }}</p>
+   
+</div>
+<h2>Racing bike</h2>
+<app-content-card *ngFor = "let item of (bikeList | biketype:'Racing'  ); index as i" 
+[BikesName] = "item" [class.Racing] = "i+1">
+</app-content-card>
 
+<h2>Sport bike</h2>
+<app-content-card *ngFor = "let item of (bikeList | biketype:'sport' ); index as i" 
+[BikesName] = "item" [class.sport]="i+1">
+</app-content-card>
 
-<app-content-card *ngFor = "let item of bikeList; index as i; even as isEven"
-[BikesName] = "item"  [class.even]="isEven">
+<h2>without type Tour</h2>
+<app-content-card *ngFor = "let item of (bikeList | biketype ); index as i" 
+[BikesName] = "item" >
+
 </app-content-card>
