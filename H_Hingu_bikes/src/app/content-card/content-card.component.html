@@ -1,8 +1,8 @@
-<div class="card">
+<div>
     <header>
-        <div class="title">{{ bikeItem ? bikeItem.title : "" }}</div><br>
+        <div class="title">{{ BikesName ? BikesName.title : "" }}</div><br>
     </header>
-    <div class="author">{{ bikeItem ? travelItem.author : "" }}</div><br>
-    <div (click)="printConsole()"><img [src]="bikeItem ? bikeItem.imageLink : ''"></div><br>
-    <div class="type">{{ bikeItem ? bikeItem.type : "" }}</div><br>
+    <div class="author">{{ BikesName ? BikesName.author : "" }}</div><br>
+    <div (click)="printConsole()"><img [src]="BikesName ? BikesName.imageLink : ''"></div><br>
+    <div class="type">{{ BikesName ? BikesName.type : "" }}</div><br>
 </div>
