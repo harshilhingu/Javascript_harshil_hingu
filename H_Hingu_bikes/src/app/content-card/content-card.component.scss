@@ -1,32 +1,23 @@
-:host{
-    
+:host {
+    border: 2px dashed crimson;
     display: block;
-    width: 400px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    .card{
-    border: 2px solid black;
-   
-   
-    text-align: center;
-   
-    
-    }
-
-    img{
-        display: block;
-        margin: 0 auto;
-        width: 200px;
-    }
-    .title{
-        font-size: large;
-        color: blueviolet;
-        text-align: center;
-    
-    }
-    &.even{
-        background-color: lightgrey;
-        text-align: right;
-    }
-
+    padding: 16px;
+    margin: 0 auto 16px;
+    max-width: 500px;
+    border-radius: 25px;
 }
+
+  
+  header {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  p {
+    font-weight: bold;
+  }
