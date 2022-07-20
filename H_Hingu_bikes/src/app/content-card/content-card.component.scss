@@ -1,11 +1,13 @@
 :host {
-    border: 2px dashed crimson;
+    border: 2px dashed rgb(255, 255, 255);
     display: block;
     padding: 16px;
     margin: 0 auto 16px;
     max-width: 500px;
     border-radius: 25px;
-}
+    background-color: black;
+  
+
 
   
   header {
@@ -21,3 +23,16 @@
   p {
     font-weight: bold;
   }
+  .title.notype{
+   
+    color: rgb(0, 253, 67);
+    text-align: center;
+    font-size: 1.2em;
+
+}
+.notype{
+    color: rgb(0, 253, 67);
+    text-align: center;
+    font-size: 1.2em;
+}
+}

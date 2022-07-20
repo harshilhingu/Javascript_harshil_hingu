@@ -17,8 +17,8 @@
 [BikesName] = "item" [class.sport]="i+1">
 </app-content-card>
 
-<h2>without type Tour</h2>
+<h2>without type bike</h2>
 <app-content-card *ngFor = "let item of (bikeList | biketype ); index as i" 
-[BikesName] = "item" >
+[BikesName] = "item" [class.notype]="i+1">
 
 </app-content-card>
