@@ -51,10 +51,10 @@ export class ContentListComponent implements OnInit {
       id: 5,
       title: 'Hero Honda',
       body: "Aluminum not that much effective but it's good for some years ",
-      imageLink: "https://img.etimg.com/thumb/msid-82267745,width-1070,height-580,imgsize-584129,overlay-etpanache/photo.jpg",
+      //imageLink: "https://img.etimg.com/thumb/msid-82267745,width-1070,height-580,imgsize-584129,overlay-etpanache/photo.jpg",
       type: "Not much hard",
       author: "Harsil Hingu",
-      hashtags: ["BMW", "Trigger", "Hayabuza"]
+      //hashtags: ["BMW", "Trigger", "Hayabuza"]
     },
   ];
   }
